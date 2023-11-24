@@ -1,13 +1,13 @@
 {
-  "version": "0.1.1",
-  "description": "A snap for managing semaphore secrets and creating zk-proofs for web3-plurality!A snap for managing semaphore secrets and creating zk-proofs for web3-plurality!",
+  "version": "0.1.3",
+  "description": "A snap for managing semaphore secrets and creating zk-proofs for web3-plurality!",
   "proposedName": "Web3 Plurality",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Web3-Plurality/plurality-snap.git"
+    "url": "git+https://github.com/Web3-Plurality/plurality-metamask-snap.git"
   },
   "source": {
-    "shasum": "pgRZeJ95NFxNFpbj9oxSIEqF/ieceiVxnjX1J71/z2o=",
+    "shasum": "SyXVjGSwFp6ad3MFUwoNLRY84ge+4B0ZB661jhLv0I0=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
