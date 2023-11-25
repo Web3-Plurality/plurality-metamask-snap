@@ -11,7 +11,7 @@ export const addReputation = async (_source: string, id_obj: string): Promise<st
   }
 
   // Persist some data.
-  snap.request({
+  await snap.request({
     method: 'snap_manageState',
     params: { operation: 'update', 
     newState: state
