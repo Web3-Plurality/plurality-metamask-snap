@@ -11,3 +11,6 @@ yarn install && yarn start
 - Run `npm run build:clean` and verify in `snap.manifest.json` file if the changes (version etc.) were reflected from package.json
 - Run `npm version` and verify if the version is updated correctly locally
 - Run `npm publish` to publish it to public npm registry
+
+## Release
+- The package is released on NPM registry via a build pipeline on merge to main
