@@ -1,5 +1,5 @@
 # Plurality Snap
-This snap contains functionality for zero-knowledge secrets creation. This snap is to be used in conjunction with plurality's dashboard and widget. 
+This snap contains functionality for zero-knowledge and DID secrets creation. This snap is to be used in conjunction with plurality's dashboard and widget. 
 
 ## To run
 ```
