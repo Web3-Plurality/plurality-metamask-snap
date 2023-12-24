@@ -1,6 +1,6 @@
 {
   "name": "plurality-secrets-snap",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "A snap for managing semaphore secrets and creating zk-proofs for web3-plurality",
   "repository": {
     "type": "git",
@@ -29,9 +29,12 @@
   "dependencies": {
     "@metamask/snaps-types": "^0.32.2",
     "@metamask/snaps-ui": "^0.32.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^11.0.2",
     "@semaphore-protocol/data": "^3.11.1",
     "@semaphore-protocol/identity": "^3.11.1",
     "buffer": "^6.0.3",
+    "semantic-release": "^22.0.12",
     "web3": "^1.9.0"
   },
   "devDependencies": {
