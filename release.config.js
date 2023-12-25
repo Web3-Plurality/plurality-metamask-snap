@@ -5,10 +5,9 @@ module.exports = {
     '@semantic-release/release-notes-generator',
     '@semantic-release/npm',
     [
-      '@semantic-release/exec',
-      {
-        'prepareCmd': 'sed -i "s/\\\"version\\\": \\\"[^\\\"]*\\\"/\\\"version\\\": \\\"${nextRelease.version}\\\"/" snap.manifest.json'
-      }
+      '@semantic-release/exec', {
+        'prepareCmd': 'npm run build'
+      }      
     ],
     '@semantic-release/git',
     '@semantic-release/github'
