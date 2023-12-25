@@ -2,7 +2,8 @@ module.exports = {
   branches: ['main'],
   plugins: [
     '@semantic-release/git',
-    '@semantic-release/npm'
+    '@semantic-release/npm',
+    '@semantic-release/github'
   ],
 
   git: {
