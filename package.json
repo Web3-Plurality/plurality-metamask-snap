@@ -13,6 +13,16 @@
     "images/",
     "snap.manifest.json"
   ],
+  "keywords": [
+    "web3",
+    "plurality",
+    "reputation",
+    "social",
+    "connect",
+    "identity",
+    "zero-knowledge",
+    "did"
+  ],
   "scripts": {
     "build": "mm-snap build",
     "build:clean": "yarn clean && yarn build",
@@ -29,6 +39,7 @@
   "dependencies": {
     "@metamask/snaps-types": "^0.32.2",
     "@metamask/snaps-ui": "^0.32.2",
+    "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/npm": "^11.0.2",
     "@semaphore-protocol/data": "^3.11.1",
