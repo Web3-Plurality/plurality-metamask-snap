@@ -3,7 +3,7 @@ This snap contains functionality for zero-knowledge and DID secrets creation. Th
 
 ## To run
 ```
-yarn install && yarn start
+npm install && npm run start
 ```
 
 ## To publish
